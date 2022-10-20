@@ -3,10 +3,11 @@ import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import Image from 'next/image'
 import deved from '../public/dev-ed-wave.png';
-import Todo from '../public/todo.png';
-import Beef from '../public/Beef-and-meet.png';
-import mybank from '../public/mybankPreview.png'
-import {useState} from 'react'
+import Todo from '../public/Todo.png';
+import Beef from '../public/Beef.png';
+import mybank from '../public/mybank.png';
+import {useState} from 'react';
+// import curriculo from '../public/cv.pdf';
 
 export const Home = () => {
 
@@ -27,7 +28,7 @@ export const Home = () => {
             <h1 className='text-xl font-burtons dark:text-white'>Seja bem vindo</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!DarkMode)} className='cursor-pointer text-2xl dark:fill-white' /></li>
-              <li><a href="#" className='bg-cyan-700 text-white px-4 py-2 rounded-md ml-8 dark:bg-gradient-to-r from-cyan-500 to-teal-400 dark:text-black'>Curriculo</a></li>
+              <li><a href="https://docs.google.com/document/d/17PC6JRSdzQxvhSGGp-Yegev3VIbJXqkogTqGhUnFUF0/edit?usp=sharing"  target="_blank" rel='noreferrer' className='bg-cyan-700 text-white px-4 py-2 rounded-md ml-8 dark:bg-gradient-to-r from-cyan-500 to-teal-400 dark:text-black'>Curriculo</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
