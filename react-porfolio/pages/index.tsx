@@ -28,7 +28,12 @@ export const Home = () => {
             <h1 className='text-xl font-burtons dark:text-white'>Seja bem vindo</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!DarkMode)} className='cursor-pointer text-2xl dark:fill-white' /></li>
-              <li><a href="https://docs.google.com/document/d/17PC6JRSdzQxvhSGGp-Yegev3VIbJXqkogTqGhUnFUF0/edit?usp=sharing"  target="_blank" rel='noreferrer' className='bg-cyan-700 text-white px-4 py-2 rounded-md ml-8 dark:bg-gradient-to-r from-cyan-500 to-teal-400 dark:text-black'>Curriculo</a></li>
+              <li><a 
+              href='../public/mybank.png' 
+              download="yuri-cv"  
+              className='bg-cyan-700 text-white px-4 py-2 rounded-md ml-8 dark:bg-gradient-to-r from-cyan-500 to-teal-400 dark:text-black'>Curriculo
+              </a>
+              </li>
             </ul>
           </nav>
           <div className='text-center p-10'>
@@ -43,7 +48,7 @@ export const Home = () => {
           </div>
           <div>
             <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-              <Image src={deved} layout="fill" objectFit='cover' />
+              <Image src={deved} layout="fill" objectFit='cover' alt='Foto personagem acendando' />
             </div>
           </div>
         </section>
@@ -56,9 +61,9 @@ export const Home = () => {
           </div>
           <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2'>
-              <Image src={mybank} width={350} height={225} />
+              <Image src={mybank} width={350} height={225} alt='foto aplicativo bancario'/>
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Uma fintech bancaria</h3>
-              <a className='text-gray-900 py-2 text-lg dark:text-white' href='mybank-theta.vercel.app' rel='noreferrer' target='_blank'>Link para o projeto</a>
+              <a className='text-gray-900 py-2 text-lg dark:text-white' href='https://mybank-theta.vercel.app/' rel='noreferrer' target='_blank'>Link para o projeto</a>
               <p className='py-2 dark:text-white' >Desenvolvi esse projeto pensando em explorar mais o ecosistema React, no fim virou um lugar legal pra simular uma operação bancaria</p>
               <div className='flex gap-8 justify-center'>
                 <p className='text-gray-800 py-1 dark:text-white' >TypeScript</p>
@@ -67,9 +72,9 @@ export const Home = () => {
               </div>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2'>
-              <Image src={Todo} width={350} height={226} />
+              <Image src={Todo} width={350} height={226} alt='foto To-Do-list' />
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Uma To Do List</h3>
-              <a className='text-gray-900 py-2 text-lg dark:text-white' href='todolistreact-seven.vercel.app' rel='noreferrer' target='_blank'>Link para o projeto</a>
+              <a className='text-gray-900 py-2 text-lg dark:text-white' href='https://todolistreact-seven.vercel.app' rel='noreferrer' target='_blank'>Link para o projeto</a>
               <p className='py-2 dark:text-white'>Esse foi o meu primeiro projeto em React, fiz ele para aprender a passar props e controlar o estado com useState</p>
               <div className='flex gap-8 justify-center'>
                 <p className='text-gray-800 py-1 dark:text-white'>JavaScript</p>
@@ -78,9 +83,9 @@ export const Home = () => {
               </div>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2'>
-              <Image src={Beef} width={350} height={225} />
+              <Image src={Beef} width={350} height={225} alt='foto pagina inicial restaurante' />
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Um site de Restaurante</h3>
-              <a className='text-gray-900 py-2 text-lg dark:text-white' href='beef-and-meet.vercel.app' rel='noreferrer' target='_blank'>Link para o projeto</a>
+              <a className='text-gray-900 py-2 text-lg dark:text-white' href='https://beef-and-meet.vercel.app/' rel='noreferrer' target='_blank'>Link para o projeto</a>
               <p className='py-2 dark:text-white'>Desenvolvi esse projeto com o intuito de melhorar minhas habilidades no React-router-dom e treinar o metodo Filter do Array</p>
               <div className='flex gap-8 justify-center'>
                 <p className='text-gray-800 py-1 dark:text-white'>TypeScript</p>
