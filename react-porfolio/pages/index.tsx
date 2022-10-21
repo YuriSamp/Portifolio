@@ -7,7 +7,6 @@ import Todo from '../public/Todo.png';
 import Beef from '../public/Beef.png';
 import mybank from '../public/mybank.png';
 import {useState} from 'react';
-// import curriculo from '../public/cv.pdf';
 
 export const Home = () => {
 
@@ -29,7 +28,7 @@ export const Home = () => {
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!DarkMode)} className='cursor-pointer text-2xl dark:fill-white' /></li>
               <li><a 
-              href='../public/mybank.png' 
+              href='cv.pdf'
               download="yuri-cv"  
               className='bg-cyan-700 text-white px-4 py-2 rounded-md ml-8 dark:bg-gradient-to-r from-cyan-500 to-teal-400 dark:text-black'>Curriculo
               </a>
@@ -39,7 +38,7 @@ export const Home = () => {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Yuri Sampaio</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Front-end Developer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'></p>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-100'>Tento sempre transformar problemas em processos divertidos de serem executados</p>
           </div>
           <div className='text-5xl flex justify-center gap-12 py-3 text-gray-600 lg:gap-16'>
             <a href='https://twitter.com/Yuri_Sampa' rel='noreferrer' target="_blank"><AiFillTwitterCircle className='cursor-pointer' /></a>
@@ -59,8 +58,8 @@ export const Home = () => {
             <p className='text-xl py-2 leading-8  dark:text-white'>Desde que eu comecei meus estudos em front-end
               eu consegui desenvovler algumas coisas legais, vem dar uma olhada!</p>
           </div>
-          <div className='lg:flex gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2'>
+          <div className='lg:flex gap-10 '>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2 hover:scale-105 ease-in-out duration-300'>
               <Image src={mybank} width={350} height={225} alt='foto aplicativo bancario'/>
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Uma fintech bancaria</h3>
               <a className='text-gray-900 py-2 text-lg dark:text-white' href='https://mybank-theta.vercel.app/' rel='noreferrer' target='_blank'>Link para o projeto</a>
@@ -71,7 +70,7 @@ export const Home = () => {
                 <p className='text-gray-800 py-1 dark:text-white'>Sass</p>
               </div>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2 hover:scale-105 ease-in-out duration-300'>
               <Image src={Todo} width={350} height={226} alt='foto To-Do-list' />
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Uma To Do List</h3>
               <a className='text-gray-900 py-2 text-lg dark:text-white' href='https://todolistreact-seven.vercel.app' rel='noreferrer' target='_blank'>Link para o projeto</a>
@@ -82,7 +81,7 @@ export const Home = () => {
                 <p className='text-gray-800 py-1 dark:text-white'>Css</p>
               </div>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2 hover:scale-105 ease-in-out duration-300'>
               <Image src={Beef} width={350} height={225} alt='foto pagina inicial restaurante' />
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Um site de Restaurante</h3>
               <a className='text-gray-900 py-2 text-lg dark:text-white' href='https://beef-and-meet.vercel.app/' rel='noreferrer' target='_blank'>Link para o projeto</a>
