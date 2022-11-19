@@ -13,7 +13,6 @@ export const Home = () => {
 
   const [DarkMode, setDarkMode] = useState(false);
 
-
   return (
     <div className={DarkMode ? "dark" : ""} >
       <Head>
