@@ -6,7 +6,7 @@ import deved from '../public/dev-ed-wave.png';
 import Todo from '../public/Todo.png';
 import Beef from '../public/Beef.png';
 import mybank from '../public/mybank.png';
-import {useState} from 'react';
+import { useState } from 'react';
 import Rick from '../public/Rick.png';
 
 export const Home = () => {
@@ -26,11 +26,11 @@ export const Home = () => {
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-xl font-burtons dark:text-white'>Seja bem vindo</h1>
             <ul className='flex items-center'>
-              <li><BsFillMoonStarsFill onClick={() => setDarkMode(!DarkMode)} className='cursor-pointer text-2xl dark:fill-white' /></li>
-              <li><a 
-              href='Curriculo.pdf'
-              download="yuri-cv"  
-              className='bg-cyan-700 text-white px-4 py-2 rounded-md ml-8 dark:bg-gradient-to-r from-cyan-500 to-teal-400 dark:text-black'>Curriculo
+              <li className='hover:scale-110 ease-in-out duration-300'><BsFillMoonStarsFill onClick={() => setDarkMode(!DarkMode)} className='cursor-pointer text-2xl dark:fill-white' /></li>
+              <li className='hover:scale-110 ease-in-out duration-300'><a
+                href='Curriculo.pdf'
+                download="yuri-cv"
+                className='bg-cyan-700 text-white px-4 py-2 rounded-md ml-8 dark:bg-gradient-to-r from-cyan-500 to-teal-400 dark:text-black  '>Curriculo
               </a>
               </li>
             </ul>
@@ -38,8 +38,8 @@ export const Home = () => {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Yuri Sampaio</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Front-end Developer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-100'>Sou apaixonado em tecnologia e em programar coisas que reflitam minha personalidade. Saber que eu posso sempre aprender mais é o que me motiva 
-            a estudar todo dia</p>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-100'>Sou apaixonado em tecnologia e em programar coisas que reflitam minha personalidade. Saber que eu posso sempre aprender mais é o que me motiva
+              a estudar todo dia</p>
           </div>
           <div>
             <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
@@ -55,7 +55,7 @@ export const Home = () => {
           </div>
           <div className='lg:grid lg:grid-cols-3 gap-5 '>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2 hover:scale-105 ease-in-out duration-300'>
-              <Image src={mybank} width={350} height={225} alt='foto aplicativo bancario'/>
+              <Image src={mybank} width={350} height={225} alt='foto aplicativo bancario' />
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>fintech bancaria</h3>
               <a className='py-2 text-lg text-teal-600 ' href='https://github.com/YuriSamp/myBank2' rel='noreferrer' target='_blank'>Ir para o projeto</a>
               <p className='py-2 dark:text-white' >Desenvolvi esse projeto pensando em explorar mais o ecosistema React, no fim virou um lugar legal pra simular uma operação bancaria</p>
@@ -107,10 +107,10 @@ export const Home = () => {
         <footer className='border-t-2 py-10'>
           <p className='py-2 text-center md:text-xl dark:text-white'> Feito com carinho, NextJs e Tailwind Css</p>
           <div className='text-5xl flex justify-center gap-12 py-3 text-teal-600 lg:gap-16'>
-            <a href='https://twitter.com/Yuri_Sampa' rel='noreferrer' target="_blank"><AiFillTwitterCircle className='cursor-pointer' /></a>
-            <a href='https://www.linkedin.com/in/yurisamp/' rel='noreferrer' target="_blank"><AiFillLinkedin className='cursor-pointer' /></a>
-            <a href='https://github.com/YuriSamp' rel='noreferrer' target='_blank'><AiFillGithub className='cursor-pointer'/></a>
-        </div>
+            <a href='https://twitter.com/Yuri_Sampa' rel='noreferrer' target="_blank"><AiFillTwitterCircle className='cursor-pointer hover:scale-125 ease-in-out duration-300' /></a>
+            <a href='https://www.linkedin.com/in/yurisamp/' rel='noreferrer' target="_blank"><AiFillLinkedin className='cursor-pointer hover:scale-125 ease-in-out duration-300' /></a>
+            <a href='https://github.com/YuriSamp' rel='noreferrer' target='_blank'><AiFillGithub className='cursor-pointer hover:scale-125 ease-in-out duration-300' /></a>
+          </div>
         </footer>
       </main>
     </div>
