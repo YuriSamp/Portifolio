@@ -61,9 +61,9 @@ export const Home = () => {
               <p className='py-2 dark:text-white' >Desenvolvi esse projeto pensando em explorar mais o ecosistema React, no fim virou um lugar legal pra simular uma operação bancaria</p>
               <p className='py-2 text-gray-800 dark:text-white '> Tecnologias usadas:</p>
               <div className='flex gap-3 md:gap-8 justify-center'>
-                <p className='text-gray-800 py-1 dark:text-white border-2 p-2 border-teal-600 rounded-full' >TypeScript</p>
-                <p className='text-gray-800 py-1 dark:text-white border-2 p-2 border-teal-600 rounded-full'>React</p>
-                <p className='text-gray-800 py-1 dark:text-white border-2 p-2 border-teal-600 rounded-full'>Sass</p>
+                <p className='Tags' >TypeScript</p>
+                <p className='Tags'>React</p>
+                <p className='Tags'>Sass</p>
               </div>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2 hover:scale-105 ease-in-out duration-300'>
@@ -73,9 +73,9 @@ export const Home = () => {
               <p className='py-2 dark:text-white'>Esse foi o meu primeiro projeto em React, fiz ele para aprender a passar props e controlar o estado com useState</p>
               <p className='py-2 text-gray-800 dark:text-white '> Tecnologias usadas:</p>
               <div className='flex gap-3 md:gap-8 justify-center'>
-                <p className='text-gray-800 py-1 dark:text-white border-2 p-2 border-teal-600 rounded-full'>JavaScript</p>
-                <p className='text-gray-800 py-1 dark:text-white border-2 p-2 border-teal-600 rounded-full'>React</p>
-                <p className='text-gray-800 py-1 dark:text-white border-2 p-2 border-teal-600 rounded-full'>Css</p>
+                <p className='Tags'>JavaScript</p>
+                <p className='Tags'>React</p>
+                <p className='Tags'>Css</p>
               </div>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2 hover:scale-105 ease-in-out duration-300'>
@@ -85,9 +85,9 @@ export const Home = () => {
               <p className='py-2 dark:text-white'>Desenvolvi esse projeto com o intuito de melhorar minhas habilidades no React-router-dom e treinar o metodo Filter do Array</p>
               <p className='py-2 text-gray-800 dark:text-white '> Tecnologias usadas:</p>
               <div className='flex gap-3 md:gap-8 justify-center'>
-                <p className='text-gray-800 py-1 dark:text-white border-2 p-2 border-teal-600 rounded-full'>TypeScript</p>
-                <p className='text-gray-800 py-1 dark:text-white border-2 p-2 border-teal-600 rounded-full'>React</p>
-                <p className='text-gray-800 py-1 dark:text-white border-2 p-2 border-teal-600 rounded-full'>Sass</p>
+                <p className='Tags'>TypeScript</p>
+                <p className='Tags'>React</p>
+                <p className='Tags'>Sass</p>
               </div>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2 hover:scale-105 ease-in-out duration-300'>
@@ -97,9 +97,9 @@ export const Home = () => {
               <p className='py-2 dark:text-white'>Desenvolvi esse projeto com o intuito criar um app com as informações de todos os personagens da série, para isso eu consumi a Api publica de Rick And Morty</p>
               <p className='py-2 text-gray-800 dark:text-white '> Tecnologias usadas:</p>
               <div className='flex gap-3 md:gap-8 justify-center'>
-                <p className='text-gray-800 py-1 dark:text-white border-2 p-2 border-teal-600 rounded-full'>TypeScript</p>
-                <p className='text-gray-800 py-1 dark:text-white border-2 p-2 border-teal-600 rounded-full'>React</p>
-                <p className='text-gray-800 py-1 dark:text-white border-2 p-2 border-teal-600 rounded-full'>Axios</p>
+                <p className='Tags'>TypeScript</p>
+                <p className='Tags'>React</p>
+                <p className='Tags'>Axios</p>
               </div>
             </div>
           </div>

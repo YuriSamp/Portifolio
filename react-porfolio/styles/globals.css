@@ -2,24 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 @font-face {
   font-family: "burtons";
   src: url('../public/Burtons.otf');
+}
+
+@layer base{
+  body{
+    @apply !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-teal-600
+  }
+}
+
+@layer components{
+  .Tags{
+    @apply text-gray-800 py-1 dark:text-white border-2 p-2 border-teal-600 rounded-full
+  }
 }
