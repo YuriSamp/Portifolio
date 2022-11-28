@@ -8,6 +8,7 @@ import Beef from '../public/Beef.png';
 import mybank from '../public/mybank.png';
 import { useState } from 'react';
 import Rick from '../public/Rick.png';
+import Netflix from '../public/Netflix.png';
 
 export const Home = () => {
 
@@ -99,7 +100,19 @@ export const Home = () => {
               <div className='flex gap-3 md:gap-8 justify-center'>
                 <p className='Tags'>TypeScript</p>
                 <p className='Tags'>React</p>
-                <p className='Tags'>Axios</p>
+                <p className='Tags'>Tailwind Css</p>
+              </div>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2 hover:scale-105 ease-in-out duration-300'>
+              <Image src={Netflix} width={350} height={225} alt='foto pagina inicial restaurante' />
+              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Netflix Clone</h3>
+              <a className='py-2 text-lg text-teal-600 ' href='https://netflix-clone-mu-topaz.vercel.app' rel='noreferrer' target='_blank'>Ir para o projeto</a>
+              <p className='py-2 dark:text-white'>Eu queria recriar a UI de algo famoso então optei pela netflix, mas eu pretendo ir além e integrar com firebase e o Stripe pra se tornar o mais realista possivel</p>
+              <p className='py-2 text-gray-800 dark:text-white '> Tecnologias usadas:</p>
+              <div className='flex gap-3 md:gap-8 justify-center'>
+                <p className='Tags'>TypeScript</p>
+                <p className='Tags'>Next</p>
+                <p className='Tags'>Tailwind Css</p>
               </div>
             </div>
           </div>
