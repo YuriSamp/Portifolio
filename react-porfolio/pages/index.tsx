@@ -22,7 +22,7 @@ export const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-white px-10 md:px-20 lg:px-40 min-h-screen dark:bg-black'>
+      <main className='bg-[#FCFBF4] px-10 md:px-20 lg:px-40 min-h-screen dark:bg-[#03040B]'>
         <section className=' min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-xl font-burtons dark:text-white'>Seja bem vindo</h1>
@@ -48,16 +48,16 @@ export const Home = () => {
             </div>
           </div>
         </section>
-        <section>
+        <section className='pb-8'>
           <div className='text-center'>
             <h3 className='text-5xl py-1 pt-3  text-teal-600'>Meus Projetos</h3>
             <p className='text-xl py-2 leading-8  dark:text-white'>Desde que eu comecei meus estudos em programação
               eu consegui desenvovler algumas coisas legais, vem dar uma olhada!</p>
           </div>
-          <div className='lg:grid lg:grid-cols-3 gap-5 '>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2 hover:scale-105 ease-in-out duration-300'>
+          <div className='lg:grid lg:grid-cols-3 gap-5 pt-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-3 dark:border-2 hover:scale-105 ease-in-out duration-300'>
               <Image src={mybank} width={350} height={225} alt='foto aplicativo bancario' />
-              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>fintech bancaria</h3>
+              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Fintech</h3>
               <a className='py-2 text-lg text-teal-600 ' href='https://github.com/YuriSamp/myBank2' rel='noreferrer' target='_blank'>Ir para o projeto</a>
               <p className='py-2 dark:text-white' >Desenvolvi esse projeto pensando em explorar mais o ecosistema React, no fim virou um lugar legal pra simular uma operação bancaria</p>
               <p className='py-2 text-gray-800 dark:text-white '> Tecnologias usadas:</p>
@@ -67,7 +67,7 @@ export const Home = () => {
                 <p className='Tags'>Sass</p>
               </div>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2 hover:scale-105 ease-in-out duration-300'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-3 dark:border-2 hover:scale-105 ease-in-out duration-300'>
               <Image src={Todo} width={350} height={226} alt='foto To-Do-list' />
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>To Do List</h3>
               <a className=' py-2 text-lg text-teal-600 ' href='https://github.com/YuriSamp/TodoList-React' rel='noreferrer' target='_blank'> Ir para o projeto</a>
@@ -79,9 +79,9 @@ export const Home = () => {
                 <p className='Tags'>Css</p>
               </div>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2 hover:scale-105 ease-in-out duration-300'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-3 dark:border-2 hover:scale-105 ease-in-out duration-300'>
               <Image src={Beef} width={350} height={225} alt='foto pagina inicial restaurante' />
-              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Site de Restaurante</h3>
+              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Restaurante</h3>
               <a className='py-2 text-lg text-teal-600 ' href='https://github.com/YuriSamp/Beef-and-Meet' rel='noreferrer' target='_blank'>Ir para o projeto</a>
               <p className='py-2 dark:text-white'>Desenvolvi esse projeto com o intuito de melhorar minhas habilidades no React-router-dom e treinar o metodo Filter do Array</p>
               <p className='py-2 text-gray-800 dark:text-white '> Tecnologias usadas:</p>
@@ -91,7 +91,7 @@ export const Home = () => {
                 <p className='Tags'>Sass</p>
               </div>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2 hover:scale-105 ease-in-out duration-300'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-3 dark:border-2 hover:scale-105 ease-in-out duration-300'>
               <Image src={Rick} width={350} height={225} alt='foto pagina inicial restaurante' />
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Rick And Morty Tracker</h3>
               <a className='py-2 text-lg text-teal-600 ' href='https://github.com/YuriSamp/Earth_C-137' rel='noreferrer' target='_blank'>Ir para o projeto</a>
@@ -103,7 +103,7 @@ export const Home = () => {
                 <p className='Tags'>Tailwind Css</p>
               </div>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:border-2 hover:scale-105 ease-in-out duration-300'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-3 dark:border-2 hover:scale-105 ease-in-out duration-300'>
               <Image src={Netflix} width={350} height={225} alt='foto pagina inicial restaurante' />
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Netflix Clone</h3>
               <a className='py-2 text-lg text-teal-600 ' href='https://netflix-clone-mu-topaz.vercel.app' rel='noreferrer' target='_blank'>Ir para o projeto</a>
