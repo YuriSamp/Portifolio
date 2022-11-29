@@ -107,7 +107,7 @@ export const Home = () => {
               <Image src={Netflix} width={350} height={225} alt='foto pagina inicial restaurante' />
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Netflix Clone</h3>
               <a className='py-2 text-lg text-teal-600 ' href='https://netflix-clone-mu-topaz.vercel.app' rel='noreferrer' target='_blank'>Ir para o projeto</a>
-              <p className='py-2 dark:text-white'>Eu queria recriar a UI de algo famoso então optei pela netflix, mas eu pretendo ir além e integrar com firebase e o Stripe pra se tornar o mais realista possivel</p>
+              <p className='py-2 dark:text-white'>Eu queria recriar a UI de algo famoso então optei pela netflix, foi um projeto bem bacana que eu consegui aprender mais sobre Next, varrer a documentação do tailwind e outras coisas</p>
               <p className='py-2 text-gray-800 dark:text-white '> Tecnologias usadas:</p>
               <div className='flex gap-3 md:gap-8 justify-center'>
                 <p className='Tags'>TypeScript</p>
