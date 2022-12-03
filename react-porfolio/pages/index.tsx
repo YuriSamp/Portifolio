@@ -51,8 +51,7 @@ export const Home = () => {
         <section className='pb-8'>
           <div className='text-center'>
             <h3 className='text-5xl py-1 pt-3  text-teal-600'>Meus Projetos</h3>
-            <p className='text-xl py-2 leading-8  dark:text-white'>Desde que eu comecei meus estudos em programação
-              eu consegui desenvovler algumas coisas legais, vem dar uma olhada!</p>
+            <p className='text-xl py-2 leading-8  dark:text-white'>Essa é uma pequena galeria dos projetos recentes que eu fiz e fico feliz de compartilhar o resultado!</p>
           </div>
           <div className='lg:grid lg:grid-cols-3 gap-5 pt-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-3 dark:border-2 hover:scale-105 ease-in-out duration-300'>
@@ -100,7 +99,7 @@ export const Home = () => {
               <div className='flex gap-3 md:gap-8 justify-center'>
                 <p className='Tags'>TypeScript</p>
                 <p className='Tags'>React</p>
-                <p className='Tags'>Tailwind Css</p>
+                <p className='Tags'>Tailwind </p>
               </div>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-3 dark:border-2 hover:scale-105 ease-in-out duration-300'>
@@ -112,7 +111,7 @@ export const Home = () => {
               <div className='flex gap-3 md:gap-8 justify-center'>
                 <p className='Tags'>TypeScript</p>
                 <p className='Tags'>Next</p>
-                <p className='Tags'>Tailwind Css</p>
+                <p className='Tags'>Tailwind</p>
               </div>
             </div>
           </div>
