@@ -9,6 +9,7 @@ import mybank from '../public/mybank.png';
 import { useState } from 'react';
 import Rick from '../public/Rick.png';
 import Netflix from '../public/Netflix.png';
+import skate from '../public/skate.png'
 
 export const Home = () => {
 
@@ -113,6 +114,18 @@ export const Home = () => {
                 <p className='Tags'>Next</p>
                 <p className='Tags'>Tailwind</p>
               </div>
+              </div>
+              <div className='text-center shadow-lg p-10 rounded-xl my-3 dark:border-2 hover:scale-105 ease-in-out duration-300'>
+              <Image src={skate} width={350} height={225} alt='foto pagina inicial restaurante' />
+              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Thrasher Magazine</h3>
+              <a className='py-2 text-lg text-teal-600 ' href='https://skate-lake.vercel.app' rel='noreferrer' target='_blank'>Ir para o projeto</a>
+              <p className='py-2 dark:text-white'>Esse projeto foi bem simples, só queria estruturar a UI de um site de Skate, depois pretendo adicionar uma loja, firebase, stripe e coisas mais compelxas</p>
+              <p className='py-2 text-gray-800 dark:text-white '> Tecnologias usadas:</p>
+              <div className='flex gap-3 md:gap-8 justify-center'>
+                <p className='Tags'>TypeScript</p>
+                <p className='Tags'>Next</p>
+                <p className='Tags'>Tailwind</p>
+              </div>
             </div>
           </div>
         </section>
@@ -130,3 +143,5 @@ export const Home = () => {
 }
 
 export default Home
+
+
