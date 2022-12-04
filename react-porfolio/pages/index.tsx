@@ -7,7 +7,7 @@ import Todo from '../public/Todo.png';
 import Beef from '../public/Beef.png';
 import mybank from '../public/mybank.png';
 import { useState } from 'react';
-import Rick from '../public/Rick.png';
+import Rick from '../public/Rick2.png';
 import Netflix from '../public/Netflix.png';
 import skate from '../public/skate.png'
 
