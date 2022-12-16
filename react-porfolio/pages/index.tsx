@@ -6,6 +6,7 @@ import deved from '../public/dev-ed-wave.png';
 import Todo from '../public/Todo.png';
 import Beef from '../public/Beef.png';
 import mybank from '../public/mybank.png';
+import pomodoro from '../public/pomodoro.png';
 import { useState } from 'react';
 import Rick from '../public/Rick2.png';
 import Netflix from '../public/Netflix.png';
@@ -120,6 +121,18 @@ export const Home = () => {
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Thrasher Magazine</h3>
               <a className='py-2 text-lg text-teal-600 ' href='https://skate-lake.vercel.app' rel='noreferrer' target='_blank'>Ir para o projeto</a>
               <p className='py-2 dark:text-white'>Esse projeto foi bem simples, só queria estruturar a UI de um site de Skate, depois pretendo adicionar uma loja, firebase, stripe e coisas mais compelxas</p>
+              <p className='py-2 text-gray-800 dark:text-white '> Tecnologias usadas:</p>
+              <div className='flex gap-3 md:gap-8 justify-center'>
+                <p className='Tags'>TypeScript</p>
+                <p className='Tags'>Next</p>
+                <p className='Tags'>Tailwind</p>
+              </div>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-3 dark:border-2 hover:scale-105 ease-in-out duration-300'>
+              <Image src={pomodoro} width={350} height={225} alt='foto pagina inicial restaurante' />
+              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Pomodoro</h3>
+              <a className='py-2 text-lg text-teal-600 ' href='https://pomodoro-pi-ten.vercel.app' rel='noreferrer' target='_blank'>Ir para o projeto</a>
+              <p className='py-2 dark:text-white'>Podomoro pra quem gosta de metodos de estudo, pra mim não funciona, mas foi legal de fazer e ate usei pela primeira vez o useRef</p>
               <p className='py-2 text-gray-800 dark:text-white '> Tecnologias usadas:</p>
               <div className='flex gap-3 md:gap-8 justify-center'>
                 <p className='Tags'>TypeScript</p>
