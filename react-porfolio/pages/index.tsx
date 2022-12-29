@@ -33,14 +33,14 @@ export const Home = () => {
               <li className='hover:scale-110 ease-in-out duration-300'><a
                 href='Curriculo.pdf'
                 download="yuri-cv"
-                className='bg-cyan-700 text-white px-4 py-2 rounded-md ml-8 dark:bg-gradient-to-r from-cyan-500 to-teal-400 dark:text-black  '>Curriculo
+                className='bg-cyan-700 text-white px-4 py-2 rounded-md ml-8 dark:bg-gradient-to-r from-cyan-500 to-teal-400 dark:text-black'>Curriculo
               </a>
               </li>
             </ul>
           </nav>
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Yuri Sampaio</h2>
-            <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Front-end Developer</h3>
+            <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Software Engineer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-100'>Sou apaixonado em tecnologia e em programar coisas que reflitam minha personalidade. Saber que eu posso sempre aprender mais é o que me motiva
               a estudar todo dia</p>
           </div>
@@ -52,7 +52,7 @@ export const Home = () => {
         </section>
         <section className='pb-8'>
           <div className='text-center'>
-            <h3 className='text-5xl py-1 pt-3  text-teal-600'>Meus Projetos</h3>
+            <h2 className='text-5xl py-1 pt-3  text-teal-600'>Meus Projetos</h2>
             <p className='text-xl py-2 leading-8  dark:text-white'>Essa é uma pequena galeria dos projetos recentes que eu fiz e fico feliz de compartilhar o resultado!</p>
           </div>
           <div className='lg:grid lg:grid-cols-3 gap-5 pt-10'>
@@ -115,8 +115,8 @@ export const Home = () => {
                 <p className='Tags'>Next</p>
                 <p className='Tags'>Tailwind</p>
               </div>
-              </div>
-              <div className='text-center shadow-lg p-10 rounded-xl my-3 dark:border-2 hover:scale-105 ease-in-out duration-300'>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-3 dark:border-2 hover:scale-105 ease-in-out duration-300'>
               <Image src={skate} width={350} height={225} alt='foto pagina inicial restaurante' />
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Thrasher Magazine</h3>
               <a className='py-2 text-lg text-teal-600 ' href='https://skate-lake.vercel.app' rel='noreferrer' target='_blank'>Ir para o projeto</a>
@@ -142,6 +142,25 @@ export const Home = () => {
             </div>
           </div>
         </section>
+
+        <section className='flex flex-col items-center py-10'>
+          <h2 className='text-5xl py-4 text-teal-600 md:text-6xl'>Sobre mim</h2>
+          <article className='py-6 w-1/2 text-xl dark:text-white'>
+            Olá! Eu sou um desenvolvedor de software com o foco em Front-end,
+            estou estudando a um pouco mais de 1 ano, escolhi essa carreira porque desde pequeno eu sempre tive curiosidade por aprender como as coisas funcionavam por
+            trás da interface do usuário, portanto busco sempre me especializar e entregar a melhor experiência que o usuario possa vir a ter com minhas criações.
+          </article>
+          <article className='py-6 w-1/2 text-xl dark:text-white'>
+            Constantemente estou estudando para melhorar os meus conhecimentos e ficar antenado nas tecnologias do mercado,
+            no momento eu to vendo NodeJs e Golang, porque eu quero entender melhor a conexão que back-end possui ao entregar as APIs para o Front-End consumir,
+            entretanto o React/Next é o meu foco.
+          </article>
+          <article className='py-6 w-1/2 text-xl dark:text-white'>
+            Uma das coisas que eu faço no meu tempo vago é sempre estar presente na comunidade da Alura tirando duvidas sobre programação para ajudar cada vez mais gente a entrar na área,
+            também crio conteudo para o linkedin transmitindo o que ja aprendi e futuramente pretendo contribuir com alguns projetos open source!
+          </article>
+        </section>
+
         <footer className='border-t-2 py-10'>
           <p className='py-2 text-center md:text-xl dark:text-white'> Feito com carinho, NextJs e Tailwind Css</p>
           <div className='text-5xl flex justify-center gap-12 py-3 text-teal-600 lg:gap-16'>
@@ -150,6 +169,7 @@ export const Home = () => {
             <a href='https://github.com/YuriSamp' rel='noreferrer' target='_blank'><AiFillGithub className='cursor-pointer hover:scale-125 ease-in-out duration-300' /></a>
           </div>
         </footer>
+
       </main>
     </div>
   )
