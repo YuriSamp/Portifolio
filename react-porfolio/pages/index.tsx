@@ -31,7 +31,7 @@ export const Home = () => {
             <ul className='flex items-center'>
               <li className='hover:scale-110 ease-in-out duration-300'><BsFillMoonStarsFill onClick={() => setDarkMode(!DarkMode)} className='cursor-pointer text-2xl dark:fill-white' /></li>
               <li className='hover:scale-110 ease-in-out duration-300'><a
-                href='Curriculo.pdf'
+                href='cv.pdf'
                 download="yuri-cv"
                 className='bg-cyan-700 text-white px-4 py-2 rounded-md ml-8 dark:bg-gradient-to-r from-cyan-500 to-teal-400 dark:text-black'>Curriculo
               </a>
