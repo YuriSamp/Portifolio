@@ -38,17 +38,18 @@ export const Home = () => {
               </li>
             </ul>
           </nav>
+          <div>
+            <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
+              <Image src={deved} layout="fill" objectFit='cover' alt='Foto personagem acendando' />
+            </div>
+          </div>
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Yuri Sampaio</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Software Engineer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-100'>Sou apaixonado em tecnologia e em programar coisas que reflitam minha personalidade. Saber que eu posso sempre aprender mais é o que me motiva
               a estudar todo dia</p>
           </div>
-          <div>
-            <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-              <Image src={deved} layout="fill" objectFit='cover' alt='Foto personagem acendando' />
-            </div>
-          </div>
+
         </section>
         <section className='pb-8'>
           <div className='text-center'>
