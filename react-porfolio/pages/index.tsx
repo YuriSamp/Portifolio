@@ -61,7 +61,7 @@ export const Home = () => {
               <Image src={mybank} width={350} height={225} alt='foto aplicativo bancario' />
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Fintech</h3>
               <a className='py-2 text-lg text-teal-600 ' href='https://github.com/YuriSamp/myBank2' rel='noreferrer' target='_blank'>Ir para o projeto</a>
-              <p className='py-2 dark:text-white' >Desenvolvi esse projeto pensando em explorar mais o ecosistema React, no fim virou um lugar legal pra simular uma operação bancaria</p>
+              <p className='py-2 dark:text-white' >Desenvolvi esse projeto pensando em explorar mais o ecossistema React, no fim virou um lugar legal pra simular uma operação bancaria</p>
               <p className='py-2 text-gray-800 dark:text-white '> Tecnologias usadas:</p>
               <div className='flex gap-3 md:gap-8 justify-center'>
                 <p className='Tags' >TypeScript</p>
@@ -137,7 +137,7 @@ export const Home = () => {
               <p className='py-2 text-gray-800 dark:text-white '> Tecnologias usadas:</p>
               <div className='flex gap-3 md:gap-8 justify-center'>
                 <p className='Tags'>TypeScript</p>
-                <p className='Tags'>Next</p>
+                <p className='Tags'>React</p>
                 <p className='Tags'>Tailwind</p>
               </div>
             </div>
@@ -148,7 +148,7 @@ export const Home = () => {
           <h2 className='text-5xl py-4 text-teal-600 md:text-6xl'>Sobre mim</h2>
           <article className='py-6 w-1/2 text-xl dark:text-white'>
             Olá! Eu sou um desenvolvedor de software com o foco em Front-end,
-            estou estudando a um pouco mais de 1 ano, escolhi essa carreira porque desde pequeno eu sempre tive curiosidade por aprender como as coisas funcionavam por
+            estou estudando há um pouco mais de 1 ano, escolhi essa carreira porque desde pequeno eu sempre tive curiosidade por aprender como as coisas funcionavam por
             trás da interface do usuário, portanto busco sempre me especializar e entregar a melhor experiência que o usuario possa vir a ter com minhas criações.
           </article>
           <article className='py-6 w-1/2 text-xl dark:text-white'>
